@@ -1,0 +1,36 @@
+:root {
+font-size: 16px;
+font-family: Lato;
+text-align: center;
+}
+
+body{
+color: #1a1a1a;
+}
+
+.column-child section {
+width: 100%;
+}
+
+@media (max-width: 425px){
+:root {
+    font-size: 12px;
+}
+}
+
+.page-builder > section {
+display: flex !important;
+justify-content: center;
+}body {
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}.page-builder > section {
+max-width: 100%;
+}.page-builder > section {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
